@@ -1,0 +1,36 @@
+.failure-card {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.failure-image {
+  width: 30%;
+}
+
+.failure-msg {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #475569;
+}
+
+.retry-button {
+  width: 85px;
+  height: 32px;
+  background: #0284c7;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+}

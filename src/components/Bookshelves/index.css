@@ -1,0 +1,181 @@
+.bookshelves-container {
+  background-color: #e5e5e5;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.all-book-body {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.filter-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 20px;
+  color: #334155;
+}
+
+.filter-group-card {
+  width: 20%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.filter-card {
+  width: 100%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.all-book-main-card {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 30px 0px 30px;
+}
+
+.book-status-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.book-status-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 18px;
+  color: #334155;
+}
+
+.search-card {
+  width: 50%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+}
+
+.search-input {
+  width: 80%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  color: #1e293b;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+.search-button {
+  width: 20%;
+  height: 100%;
+  border: none;
+  background-color: #edeff1;
+  border-radius: 0px 4px 4px 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.all-books-card {
+  width: 100%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.no-search-card {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-search-img {
+  width: 30%;
+}
+
+.no-books-found {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  color: #334155;
+}
+
+.loader-container {
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .all-book-body {
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .filter-group-card {
+    width: 90%;
+    background-color: transparent;
+    align-items: flex-start;
+  }
+
+  .filter-card {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .all-book-main-card {
+    width: 100%;
+  }
+
+  .book-status-card {
+    width: 100%;
+  }
+
+  .search-card {
+    width: 70%;
+  }
+
+  .search-input {
+    font-size: 12px;
+  }
+
+  .no-search-img {
+    width: 50%;
+  }
+
+  .no-books-found {
+    font-size: 20px;
+  }
+}
